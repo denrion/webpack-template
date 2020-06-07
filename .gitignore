@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows,node
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,windows,node
+# Created by https://www.toptal.com/developers/gitignore/api/node,windows,visualstudiocode,sass
+# Edit at https://www.toptal.com/developers/gitignore?templates=node,windows,visualstudiocode,sass
 
 ### Node ###
 # Logs
@@ -88,6 +88,12 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -124,4 +130,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows,node
+# End of https://www.toptal.com/developers/gitignore/api/node,windows,visualstudiocode,sass
